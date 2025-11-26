@@ -23,8 +23,12 @@ ProX akademiyasi uchun AI-powered Telegram bot. Kod tahlili, ovozli xabarlar, ra
 
 ### 🎤 Ovozli Xabarlar
 - Speech-to-Text (Groq Whisper)
-- Text-to-Speech (gTTS)
-- Til aniqlash (rus/ingliz)
+- Avtomatik til aniqlash (90+ til)
+- ✅ O'zbek tilida gapirish mumkin
+- ✅ Ingliz tilida gapirish mumkin
+- ✅ Rus tilida gapirish mumkin
+- ✅ Har qanday tilni avtomatik taniydi
+- Matn bilan javob qaytaradi
 
 ### 📸 Rasm Tahlili (OCR)
 - Kod screenshot'larini o'qish

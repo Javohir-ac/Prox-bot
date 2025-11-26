@@ -1704,31 +1704,9 @@ async def handle_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
         # Processing xabarini o'chirish
         await processing_msg.delete()
         
-        # Har doim ovozli xabar sifatida javob berish
-        logger.info("Ovozli xabar yaratilmoqda")
-        
-        # Markdown va kod belgilarini tozalash
-        clean_text = response.replace('*', '').replace('_', '').replace('~', '').replace('[', '').replace(']', '')
-        clean_text = clean_text.replace('```', '').replace('`', '')
-        
-        # Text-to-speech
-        voice_response_path = await text_to_speech(clean_text)
-        
-        if voice_response_path and os.path.exists(voice_response_path):
-            # Faqat ovozli xabar yuborish
-            logger.info("Ovozli xabar yuborilmoqda")
-            with open(voice_response_path, 'rb') as audio:
-                await update.message.reply_voice(
-                    voice=audio,
-                    message_thread_id=update.message.message_thread_id
-                )
-            # Faylni o'chirish
-            os.remove(voice_response_path)
-            logger.info("Ovozli xabar yuborildi")
-        else:
-            # Agar ovozli xabar yaratilmasa, matn yuborish
-            logger.warning("Ovozli xabar yaratilmadi, matn yuborilmoqda")
-            await send_long_message(update, response, 'HTML')
+        # Ovozli xabarga MATN bilan javob berish
+        logger.info("Matn javob yuborilmoqda")
+        await send_long_message(update, response, 'HTML')
         
         logger.info(f"Ovozli xabarga javob yuborildi: {full_name}")
         
@@ -1762,7 +1740,8 @@ async def transcribe_audio(audio_path):
         # aiohttp orqali asinxron so'rov
         data = aiohttp.FormData()
         data.add_field('model', 'whisper-large-v3')
-        data.add_field('language', 'uz')
+        # language parametrini olib tashlaymiz - avtomatik aniqlash uchun
+        # Whisper o'zi tilni aniqlaydi (o'zbek, rus, ingliz, va 90+ til)
         data.add_field('response_format', 'text')
         data.add_field('file', file_content, filename=os.path.basename(audio_path), content_type='audio/ogg')
         
