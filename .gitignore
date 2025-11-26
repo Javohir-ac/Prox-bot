@@ -1,0 +1,132 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.*.local
+    
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+bot.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Bot data files
+user_memory.json
+quiz_sessions.json
+stickers.json
+settings.json
+admins.json
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Excel files (generated)
+statistics_*.xlsx
+user_details_*.xlsx
+*.xlsx
+
+# Images (temporary)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
+photo_*.jpg
+image_*.jpg
+
+# Audio files (temporary)
+*.mp3
+*.ogg
+*.wav
+*.oga
+voice_*.ogg
+voice_*.mp3
+tts_*.mp3
+
+# OCR temporary files
+ocr_*.jpg
+ocr_*.png
+
+# Backup files
+*.bak
+*.backup
+backup/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Certificates
+*.pem
+*.key
+*.crt
+
+# Secrets
+secrets/
+credentials/

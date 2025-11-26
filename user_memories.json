@@ -1,0 +1,233 @@
+{
+  "5027595868": {
+    "name": "• ʀᴀxᴍᴀᴛᴜʟʟᴀʏᴇᴠ ོོ",
+    "first_seen": "2025-11-18T17:17:58.926480",
+    "code_reviews": {
+      "total": 2,
+      "positive": 0,
+      "negative": 2,
+      "daily": {
+        "2025-11-18": 1,
+        "2025-11-22": 1
+      },
+      "history": [
+        {
+          "date": "2025-11-18T17:17:58.926480",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-22T17:34:21.864427",
+          "result": "negative"
+        }
+      ]
+    }
+  },
+  "6627651432": {
+    "name": "Javohir Jabborov",
+    "first_seen": "2025-11-19T21:12:44.222200",
+    "code_reviews": {
+      "total": 26,
+      "positive": 0,
+      "negative": 26,
+      "daily": {
+        "2025-11-19": 4,
+        "2025-11-20": 4,
+        "2025-11-21": 4,
+        "2025-11-22": 4,
+        "2025-11-23": 5,
+        "2025-11-25": 5
+      },
+      "history": [
+        {
+          "date": "2025-11-19T21:12:44.222259",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-19T21:15:17.568924",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-19T21:17:31.658975",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-19T21:21:11.000544",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-20T14:16:09.135410",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-20T14:33:35.362728",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-20T15:23:35.908383",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-20T15:49:35.882911",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-21T14:48:16.046019",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-21T17:33:23.667419",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-21T17:38:56.900552",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-21T17:45:06.357559",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-22T16:16:17.140437",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-22T16:30:59.447234",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-22T16:47:55.164336",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-22T17:02:13.583109",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-23T12:24:00.145934",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-23T12:27:57.822364",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-23T12:37:39.566243",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-23T12:37:52.980237",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-23T14:18:48.777522",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-25T08:04:41.994168",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-25T08:35:02.243317",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-25T14:19:33.202114",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-25T14:36:17.528396",
+          "result": "negative"
+        },
+        {
+          "date": "2025-11-25T18:56:25.908622",
+          "result": "negative"
+        }
+      ]
+    },
+    "requests": {
+      "total": 26,
+      "text": 8,
+      "file": 10,
+      "image": 3,
+      "voice": 5,
+      "daily": {
+        "2025-11-24": 2,
+        "2025-11-25": 24
+      }
+    },
+    "files_by_type": {
+      "html": 2,
+      "python": 8
+    },
+    "last_seen": "2025-11-25T18:56:23.247025"
+  },
+  "6848252651": {
+    "name": "RuzmoreX",
+    "first_seen": "2025-11-24T16:50:13.502678",
+    "last_seen": "2025-11-24T16:50:13.502735",
+    "requests": {
+      "total": 1,
+      "text": 1,
+      "file": 0,
+      "image": 0,
+      "voice": 0,
+      "daily": {
+        "2025-11-24": 1
+      }
+    },
+    "files_by_type": {},
+    "code_reviews": {
+      "total": 0,
+      "positive": 0,
+      "negative": 0,
+      "daily": {},
+      "history": []
+    }
+  },
+  "6823137840": {
+    "name": "Ozodbek",
+    "first_seen": "2025-11-25T18:52:20.988434",
+    "last_seen": "2025-11-25T18:52:20.988481",
+    "requests": {
+      "total": 1,
+      "text": 0,
+      "file": 0,
+      "image": 1,
+      "voice": 0,
+      "daily": {
+        "2025-11-25": 1
+      }
+    },
+    "files_by_type": {},
+    "code_reviews": {
+      "total": 0,
+      "positive": 0,
+      "negative": 0,
+      "daily": {},
+      "history": []
+    }
+  },
+  "7306278572": {
+    "name": "_kamolovich_09_",
+    "first_seen": "2025-11-25T18:58:49.499883",
+    "last_seen": "2025-11-25T19:03:59.548599",
+    "requests": {
+      "total": 5,
+      "text": 4,
+      "file": 0,
+      "image": 1,
+      "voice": 0,
+      "daily": {
+        "2025-11-25": 5
+      }
+    },
+    "files_by_type": {},
+    "code_reviews": {
+      "total": 0,
+      "positive": 0,
+      "negative": 0,
+      "daily": {},
+      "history": []
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "welcome_message_enabled": true,
+  "stickers_enabled": false,
+  "voice_response_enabled": true,
+  "group_mode_enabled": true,
+  "max_message_length": 4000,
+  "response_temperature": 0.7,
+  "max_tokens": 1500,
+  "admin_notifications": true
+}

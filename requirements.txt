@@ -1,0 +1,27 @@
+# Telegram Bot
+python-telegram-bot==21.0
+
+# AI/ML
+groq==0.36.0
+
+# Text-to-Speech
+gTTS==2.5.1
+
+# OCR (Image text recognition)
+pytesseract==0.3.10
+easyocr==1.7.0
+opencv-python==4.8.1.78
+Pillow==10.2.0
+
+# Excel generation
+openpyxl==3.1.2
+
+# HTTP requests
+httpx==0.28.1
+aiohttp==3.9.1
+
+# Environment variables
+python-dotenv==1.2.1
+
+# Utilities
+python-dateutil==2.8.2
